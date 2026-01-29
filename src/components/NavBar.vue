@@ -25,16 +25,32 @@
       <el-menu-item index="/network">代谢网络</el-menu-item>
       <el-menu-item index="/login">登录</el-menu-item>
     </el-menu>
+    <el-button class="auth-button" type="primary" @click="handleAuth">
+      {{ authLabel }}
+    </el-button>
   </header>
 </template>
 
 <script setup>
 import { computed } from "vue";
-import { useRoute } from "vue-router";
+import { useRoute, useRouter } from "vue-router";
+import { useUserStore } from "../stores/user";
 
 const route = useRoute();
+const router = useRouter();
+const userStore = useUserStore();
 
 const activePath = computed(() => route.path);
+const authLabel = computed(() => (userStore.isLoggedIn ? "退出" : "登录"));
+
+const handleAuth = () => {
+  if (userStore.isLoggedIn) {
+    userStore.logout();
+    router.push("/");
+  } else {
+    router.push("/login");
+  }
+};
 </script>
 
 <style scoped>
@@ -55,6 +71,10 @@ const activePath = computed(() => route.path);
 
 .nav-menu {
   flex: 1;
+}
+
+.auth-button {
+  margin-left: auto;
 }
 
 </style>
