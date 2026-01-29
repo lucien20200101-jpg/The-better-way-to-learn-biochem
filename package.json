@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@cloudbase/js-sdk": "^1.8.5",
+    "@cloudbase/js-sdk": "^1.8.0",
     "axios": "^1.6.8",
     "echarts": "^5.5.0",
     "element-plus": "^2.7.2",
