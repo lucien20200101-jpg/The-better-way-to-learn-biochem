@@ -75,4 +75,5 @@ const handleAuth = () => {
 .auth-button {
   margin-left: auto;
 }
+
 </style>
