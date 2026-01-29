@@ -1,7 +1,7 @@
 <template>
   <section class="page">
     <h1>学习概览</h1>
-    <p>此页面为占位，后续将补全功能。</p>
+    <p>查看你的学习进度与推荐章节。</p>
     <ProgressBar />
     <PathwayDiagram class="diagram" />
   </section>

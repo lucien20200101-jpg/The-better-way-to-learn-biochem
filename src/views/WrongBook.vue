@@ -1,7 +1,7 @@
 <template>
   <section class="page">
     <h1>错题本</h1>
-    <p>此页面为占位，后续将补全功能。</p>
+    <p>这里将展示你的错题记录与解析（占位）。</p>
   </section>
 </template>
 

@@ -1,7 +1,7 @@
 <template>
   <section class="page">
     <h1>磷酸戊糖途径</h1>
-    <p>此页面为占位，后续将补全功能。</p>
+    <p>本章节将介绍磷酸戊糖途径的功能（占位）。</p>
   </section>
 </template>
 

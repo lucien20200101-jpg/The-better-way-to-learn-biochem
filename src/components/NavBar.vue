@@ -23,7 +23,6 @@
       <el-menu-item index="/quiz">练习测验</el-menu-item>
       <el-menu-item index="/wrongbook">错题本</el-menu-item>
       <el-menu-item index="/network">代谢网络</el-menu-item>
-      <el-menu-item index="/login">登录</el-menu-item>
     </el-menu>
     <el-button class="auth-button" type="primary" @click="handleAuth">
       {{ authLabel }}

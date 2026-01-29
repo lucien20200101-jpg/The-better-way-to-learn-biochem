@@ -1,7 +1,7 @@
 <template>
   <section class="page">
     <h1>脂肪酸合成</h1>
-    <p>此页面为占位，后续将补全功能。</p>
+    <p>本章节将介绍脂肪酸合成的基本流程（占位）。</p>
   </section>
 </template>
 

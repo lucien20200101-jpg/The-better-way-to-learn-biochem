@@ -1,7 +1,7 @@
 <template>
   <section class="page">
     <h1>脂肪酸氧化</h1>
-    <p>此页面为占位，后续将补全功能。</p>
+    <p>本章节将介绍脂肪酸氧化的关键步骤（占位）。</p>
   </section>
 </template>
 

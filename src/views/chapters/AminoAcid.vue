@@ -1,7 +1,7 @@
 <template>
   <section class="page">
     <h1>氨基酸代谢</h1>
-    <p>此页面为占位，后续将补全功能。</p>
+    <p>本章节将介绍氨基酸代谢的核心概念（占位）。</p>
   </section>
 </template>
 

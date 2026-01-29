@@ -1,7 +1,7 @@
 <template>
   <section class="page">
     <h1>练习测验</h1>
-    <p>此页面为占位，后续将补全功能。</p>
+    <p>请选择章节并开始答题。</p>
     <QuizCard />
   </section>
 </template>

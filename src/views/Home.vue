@@ -1,7 +1,7 @@
 <template>
   <section class="page">
     <h1>欢迎来到生化学习助手</h1>
-    <p>此页面为占位，后续将补全功能。</p>
+    <p>在这里快速进入章节学习、练习测验与代谢网络。</p>
     <div class="cards">
       <ProgressBar />
       <QuizCard />

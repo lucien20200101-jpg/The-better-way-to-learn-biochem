@@ -1,7 +1,7 @@
 <template>
   <section class="page">
     <h1>登录</h1>
-    <p>此页面为占位，后续将补全功能。</p>
+    <p>请输入昵称，模拟登录后即可开始学习。</p>
     <el-input v-model="name" placeholder="请输入昵称" class="input" />
     <el-button type="primary" @click="handleLogin">确认登录</el-button>
   </section>

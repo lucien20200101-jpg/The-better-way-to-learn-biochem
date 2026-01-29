@@ -1,7 +1,7 @@
 <template>
   <section class="page">
     <h1>代谢网络</h1>
-    <p>此页面为占位，后续将补全功能。</p>
+    <p>这里将展示整体代谢网络图（占位）。</p>
   </section>
 </template>
 

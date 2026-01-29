@@ -1,7 +1,7 @@
 <template>
   <section class="page">
     <h1>糖酵解</h1>
-    <p>此页面为占位，后续将补全功能。</p>
+    <p>本章节将介绍糖酵解关键步骤与能量变化（占位）。</p>
   </section>
 </template>
 
